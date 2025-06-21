@@ -64,3 +64,14 @@ Gender : Male, conf = 0.998
 Age : (25-32), conf = 0.761
 On screen: Bounding box with predicted gender and age label.
 
+
+## 🔗 Download Required Models
+
+This project requires several pre-trained Caffe models. Two of them are over GitHub's 100MB limit and must be downloaded manually:
+
+- [`age_net.caffemodel`](https://github.com/spmallick/learnopencv/raw/master/AgeGender/opencv_face_detector/age_net.caffemodel)
+- [`gender_net.caffemodel`](https://github.com/spmallick/learnopencv/raw/master/AgeGender/opencv_face_detector/gender_net.caffemodel)
+
+Place them in the same folder as `age_gender_detection.py`.
+
+
